@@ -1,0 +1,45 @@
+body { /*corpo da página*/
+    background-color: aqua;
+}
+
+#principal { /*o # serve para editar a tag ID principal. '.' (ponto) serve para editar a classe class (.class)*/
+    width: 1280px;
+    border: 2px solid black;
+}
+
+header { /*editar o header*/
+    height: 143px;
+    background-image: url("../Imagens/bck-fundo.jpg");
+    display: flex;
+    justify-content: flex-start; /*alinhamento no eixo principal (row)*/
+    align-items: center; /*alinhamento no eixo transversal*/
+}
+
+header img{ /*imagem especificamente dentro do header*/
+    margin: 0px 12px
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav { /*editar o tamanho do nav*/
+    /* border: 2px solid red; */
+    width: 700px;
+    margin-left: 104px;
+}
+
+ul { /*lista não ordenada*/
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+ul li a { /*link da lista não ordenada - link, porque os textos são links (a)*/
+    color: black;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border-radius: 15px;
+}
