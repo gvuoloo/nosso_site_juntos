@@ -1,0 +1,36 @@
+
+ul li a:hover{ /*Função usada para mudar características da página quando o cursor do mouse passa por cima (nesse caso estamos modificando os tópicos de navegação do "nav")*/
+    background-color: blueviolet; /*muda a cor do plano de fundo quando o cursor passar por cima*/
+    color: white; /*muda a cor da plavra para branco*/
+    text-decoration: underline; /*sublinha o texto*/
+}
+/*aqui começa o meio do site(MAIN SECTION)*/
+
+section{
+    /*não é necessário botar tamanho ou nem mesmo o próprio "width", pois ele já está herdando suas dimensçoes da section anterior, mas seria 1280px*/
+    background-color: plum;
+    display: flex;
+}
+
+#primeiro_destaque{
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+}
+
+#textos {
+    margin-left: 18px;
+}
+
+h3 {
+    font-weight: bold; /*para mudar o tipo de fonte para negrito*/
+    text-transform: uppercase; /*para deixar em caixa alta*/
+}
+
+#destaque_azul_claro {
+    width: 880px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    padding: 10px  10px;
+}
