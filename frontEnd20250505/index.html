@@ -1,77 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--html 5, da o codigo html completo-->
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Site da Fulana</title>
-        <link rel="stylesheet" type="text/css" href="CSS/styles.css"/> <!--Link que conecta o HTML ao CSS-->
+        <title>Template</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> <!--Linka o documento html ao css-->
+
     </head>
     <body>
-        <div id="principal"> <!--Divisao proncopal que abrange todos os blocos/partes do site-->
-            <header> <!--Cabeçalho: geralmente onde fica o MENU de navegação do site-->
-                <img src="Imagens/logo.png" alt="foto da mulher fulana" title="Fulana de tal"/>
-                <h2>Fulana de Tal</h2>
-                <nav> <!--Menu de Navegação-->
-                    <ul> <!--Tag para LISTA NÃO ORDENADA-->
-                            <li><a href="index.html">Página inicial</a></li>
-                            <li><a href="index.html">Sobre</a></li>
-                            <li><a href="index.html">Portfólio</a></li>
-                            <li><a href="index.html">Contato</a></li>
-                    </ul>
+        <div id="principal"> <!--Divisão principal, abrange todo o site-->
+            <header>
+                <img id="perfil" src="img/avatar.jpg" alt ="Foto de perfil" title="Gustavo Vuolo"/> <!--Inserir imagens--> <!---->
+                <h2>Gustavo Vuolo</h2>
+                <nav> <!--MENU DO SITE-->
+                    <ul> <!--Tag para listas NÃO ORDENADAS-->
+                        <li> <a href="index.html"> Página Inicial </a> </li> <!--Itens de lista-->
+                        <li> <a href="sobre.html"> Sobre </a> </li> 
+                        <li> <a href="portfolio.html"> Portfólio </a> </li> 
+                        <li> <a href="conteudo.html"> Contato </a> </li>                           
+                    </ul>                    
                 </nav>
-            </header>
-            <section> <!-- Seção: geralmente a parte do site que contém maior parte da informação/conteúdo -->
-                <!--dividindo a "main section" em blocos(sempre do maior bloco para o menor)-->
-                <div>
-                    <div id="primeiro_destaque"> <!--Segunda div-->
-                        <img src="Imagens/destaque-01.png" alt="Computador na cama" title="pessoas rindo no PC"/>
-                        <div id="textos">
-                            <h3>Lorem ipsum</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo magni corrupti nisi tempora esse, nostrum id voluptatem iusto nobis nesciunt minus debitis excepturi qui quod odio vitae ullam illum repudiandae?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, reprehenderit ducimus facere quia officiis consectetur laborum, consequuntur nisi voluptatem ab voluptates assumenda deleniti, eius eveniet rerum sint inventore animi vero.</p>
+            </header>             
+            <section> <!--Aonde fica a maior parte das informações do site-->
+              <div id ="paidosdois">
+                <div id="Secundaria" ><!--Segunda Div-->
+                    <img src="img/destaque-01.png" alt="Pessosas rindo no PC" title="Computador na cama">
+                        <div id =textos> 
+                            <h3> Sobre mim</h3>
+                            <p> Olá! Me chamo Gustavo Vuolo. Tenho 31 anos e atualmente eu sou estudante de graduação do curso de Análise e Desenvolvimento de Sistemas, na Faculdade SENAC RJ.Meus estudos na graduação se iniciaram recentemente, apenas em março de 2025, mas anteriormente já tinha o interesse pela área e flertava com a ideia de entrar nesta carreira. Porém, já inicio os meus estudos com uma bagagem prévia na área de arquitetura, projetos luminotécnicos e de interiores. </p>
                         </div>
-                    </div>
-                    <section id="destaque_azul_claro"><!--Terceira div-->
-                        <article>
-                            <img src="Imagens/img-01.png" alt="Headphine" title="Headphone com fundo amarelo"/> <!--Imagem-->
-                            <h3>Lorem Ipsum</h3> <!--Texto principal-->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> <!--Parágrafo-->
+                </div>
+                    <section id= "Azulzinho"> <!--Terceira Div-->
+                    
+                        <article> <!--Bloco de textos menores, localizados dentro do section-->
+                            <img src="img/img-01.png" alt="Fone de ouvido" title="Fone de ouvido">
+                            <h3> Música </h3>
+                            <p> Alice começava a cansar-se de estar sentada junto de sua irmã, à margem do rio, e de não ter nada para fazer.</p> 
                         </article>
-                        <article>
-                            <img src="Imagens/img-02.png" alt="" title=""/>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <article> 
+                            <img src ="img/img-02.png" alt="" Aplicativos="">
+                            <h3> Aplicativos </h3>
+                            <p>Uma ou duas vezes espreitara o livro que a irmã lia, mas não tinha figuras nem diálogos, “e de que serve um livro”, pensava Alice, “sem figuras nem diálogos?</p>
                         </article>
+                        
                         <article>
-                            <img src="Imagens/img-03.png" alt="" title=""/>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src ="img/img-03.png" alt="" Óculos virtual="">
+                            <h3> Tecnologia </h3>
+                            <p>Estava considerando consigo mesma (o que lhe custava certo esforço, pois o calor do dia a deixava muito sonolenta e distraída) </p> 
                         </article>
-                        <article>
-                            <img src="Imagens/img-04.png" alt="" title=""/>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        
+                        <article> <img src="img/img-04.png" alt="" Comida="">
+                        <h3>Comidas </h3>
+                        <p>se o prazer de fazer uma grinalda de margaridas valeria a pena de levantar-se e colher as flores, quando de repente passou por ela um Coelho Branco de olhos rosados.</p>
                         </article>
+
                     </section>
                 </div>
-                <aside>
-                    <img src="Imagens/img-aside.png" alt="mao segurando o mundo" title="mao e o mundo"/>
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#">FAÇA UM ORÇAMENTO</a><!--usado para identificar um "Link"-->
-                </aside>
-
-            </section>
-            <footer> <!-- Rodapé: fica na parte inferor do site, geralmente contém informações como nome do proprietário do site, contato ou links para redes sociais-->
-                <h5>Bora programar</h5>
-            </footer>
-        </div>
-        
+                    <aside> 
+                        <h4> MÃO SEGURANDO O MUNDO</h4>
+                        <img src="img/img-aside.png" alt="Mão segurando o mundo" title="Mão e o mundo">
+                        <p>Não havia nada de tão extraordinário nisso; nem mesmo o ouvir o Coelho dizer, consigo: “Ai, ai! Vou chegar atrasado!” (quando pensou nisso depois, Alice achou que devia ter se admirado, mas no momento aquilo lhe pareceu perfeitamente natural);</p>
+                        <a href="#" > FAÇA UM ORÇAMENTO </a> <!--Usado para indentificar link-->
+                    </aside>
+           </section> 
+                <footer> <!--Rodapé do site, aonde pode ser encontrado as informações de contato-->
+                 <h5> Bora programar!</h5>
+            </footer>   
+        </div>        
+    
     </body>
 </html>
-
-
-
-<!-- ul são listas não ordenadas (com bolinhas, sem ordem). ol são listas ordenadas (1, 2, 3, ...); a ordem importa para a lista-->
-<!-- listas // para criar um link é preciso fazer um <a>, para referir como um link -->
-<!-- para duplicar, apenas clicar SHIFT + ALT + SETA PARA BAIXO -->
